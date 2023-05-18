@@ -1,0 +1,141 @@
+body {
+    background-color: #202124;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    height: 5vh;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.header-margins {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-font{
+    text-decoration: none;
+    color: white;
+}
+.header-image{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    border: 0;
+    padding: 20px;
+}
+main {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    margin-bottom: 20px;
+}
+
+.main-text{
+    color: #bdc1c6;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.main-links{
+    color: #8ab4f8;
+    padding-left: 3px;
+}
+
+.buttons-text-field{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:5vh;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    width: 40vw;
+}
+
+#input-search{
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    width: 50vw;
+}
+
+svg{
+    height: 65%;
+    width: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-buttons{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    font-size: 14px;
+}
+
+.footer-align-left{
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.footer-align-rigth{
+    justify-content: flex-end;
+}
+
+.footer-links-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #171717;
+}
+.country-section {
+    padding-left: 20px;
+    background-color: #171717;
+    border-bottom: 1px #3c4043 solid;
+}
+
+.footer-link {
+    padding-left: 20px;
+    margin-right: 10px; 
+    text-decoration: none;
+    color: #bdc1c6;
+}
+
