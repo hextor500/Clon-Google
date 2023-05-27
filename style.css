@@ -2,6 +2,7 @@ body {
     background-color: #202124;
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     display: flex;
@@ -21,6 +22,14 @@ header {
 .header-font{
     text-decoration: none;
     color: white;
+}
+
+.header-apps-icon {
+    width: 24px;
+    height: 24px;
+    fill:  #bdc1c6;
+
+margin-left: 10px;
 }
 .header-image{
     border-radius: 50%;
@@ -45,23 +54,37 @@ main {
     color: #bdc1c6;
     font-family: arial,sans-serif;
     font-size: 13px;
-    padding-top: 10px;
+    margin-bottom: 15vh;
 }
 .main-links{
     color: #8ab4f8;
     padding-left: 3px;
 }
 
-.buttons-text-field{
+.buttons-text-field {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height:5vh;
+    height: 39px;
     background: #202124;
     border: 1px solid #5f6368;
     box-shadow: none;
     border-radius: 24px;
-    width: 40vw;
+    padding: 5px 8px 0 14px;
+    width: 558px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.main-svg-search {
+    height: 20px;
+    width: 20px;
+    fill: #9aa0a6;
+}
+
+.main-svg {
+    height: 24px;
+    width: 24px;
 }
 
 #input-search{
@@ -71,22 +94,20 @@ main {
     margin: 0;
     padding: 0;
     color: #e8eaed;
-    word-wrap: break-word;
     outline: none;
     display: flex;
-    width: 50vw;
+    width: 450px;
 }
 
-svg{
-    height: 65%;
+.main-buttons-container{
+    display: flex;
     width: auto;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 36px;
+    margin-bottom: 20px;
 }
 
-.main-buttons{
+.btn-search {
+    display: flex;
     background-color: #303134;
     border: 1px solid #303134;
     border-radius: 4px;
@@ -95,12 +116,10 @@ svg{
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
     min-width: 54px;
-    text-align: center;
     cursor: pointer;
-    user-select: none;
+    height: 36px;
+    align-items: center;
 }
 
 footer {
@@ -108,7 +127,7 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     font-family: arial,sans-serif;
-    color: #bdc1c6;
+    color: #9aa0a6;
     font-size: 14px;
     height: 10vh;
 }
@@ -139,6 +158,18 @@ footer {
     padding-left: 20px;
     margin-right: 10px; 
     text-decoration: none;
-    color: #bdc1c6;
+    color: #9aa0a6;
 }
 
+/* PSEUDO CLASES */
+
+.buttons-text-field:hover {
+    background-color: #303134;
+}
+
+#search:hover {
+    outline: 1px solid #5f6368;#303134
+}
+#lucky:hover {
+    outline: 1px solid #5f6368;
+}
