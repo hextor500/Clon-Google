@@ -1,5 +1,7 @@
 body {
     background-color: #202124;
+    margin: 0px;
+    padding: 0px;
 }
 header {
     display: flex;
@@ -108,6 +110,7 @@ footer {
     font-family: arial,sans-serif;
     color: #bdc1c6;
     font-size: 14px;
+    height: 10vh;
 }
 
 .footer-align-left{
